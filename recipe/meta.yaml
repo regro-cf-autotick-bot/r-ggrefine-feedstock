@@ -30,7 +30,7 @@ requirements:
     - r-base
     - r-blends
     - r-flexoki
-    - r-ggplot2
+    - r-ggplot2 >=4.0.0
     - r-jumble
     - r-rlang
     - r-scales
@@ -39,7 +39,7 @@ requirements:
     - r-base
     - r-blends
     - r-flexoki
-    - r-ggplot2
+    - r-ggplot2 >=4.0.0
     - r-jumble
     - r-rlang
     - r-scales
@@ -51,7 +51,8 @@ test:
     - "\"%R%\" -e \"library('ggrefine')\""  # [win]
 
 about:
-  home: https://github.com/davidhodge931/ggrefine, https://davidhodge931.github.io/ggrefine/
+  home: https://davidhodge931.github.io/ggrefine/
+  dev_url: https://github.com/davidhodge931/ggrefine
   license: MIT
   summary: Complete themes for publication-quality 'ggplot2' visualisation. Also provides functions to modify these based on the positional axis scales and focus of a particular plot.
   license_family: MIT
