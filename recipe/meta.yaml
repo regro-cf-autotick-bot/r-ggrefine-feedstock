@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggrefine_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggrefine/ggrefine_{{ version }}.tar.gz
-  sha256: 93f4faaaa901265e984dbe735f0e90f37f0a5729a7a4799fa9d09f3b0e23d0d3
+  sha256: 46370436c5b43bb67b66743cb32af63e583e50fe7fb9df51919d577cfd8022db
 
 build:
   number: 0
